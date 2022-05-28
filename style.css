@@ -1,0 +1,76 @@
+body {
+  background-color: grey;
+  font-family:Oswald;
+  color: rgb(17, 161, 232)
+  
+}
+
+a {
+  color: rgb(48, 77, 223);
+}
+
+a:hover {
+color: #93d0ec;
+}
+
+
+.header {
+ background-color: #212f50;
+ font-family:Anton;
+ margin-bottom: 0px;
+ padding: 10px;
+ border-right: solid;
+ border-left: solid;
+ border-bottom:thick solid rgb(0, 129, 189);}
+header h1{
+  font-size:3em;
+}
+
+header nav ul li {
+  display: inline;
+  font-size:1em;
+}
+.project {
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+  border-left: solid;
+  border-right: solid;
+  border-bottom: solid;
+  color: #004a8f;
+}
+.project img, #aboutme img {
+  width:200px;
+  float: left;
+  margin-right:0px;
+  margin-bottom:0px;
+  
+}
+.project img, img {
+  width:200px;
+  float: Middle;
+  margin-right:0px;
+  margin-bottom:0px;
+.project h2 {
+  font-size:1.5em;
+  margin-bottom:10px;
+  
+  color: #004a8f;
+}
+project nav ul li {
+  display: inline;
+  font-size:1em;
+.clear {
+  clear: both;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#project-container, #aboutme {
+  margin: 0 auto; /* centers projects div */
+  width: 90% /* adds space on either side */
+  max-width: 600px; /* keeps div from getting too wide */
+}
